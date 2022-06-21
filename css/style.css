@@ -1,0 +1,391 @@
+/*白色的框框*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgba(110, 100, 95, 0.752);
+    font-family: 'Noto Serif TC', serif;
+}
+
+.wrap {
+    background: rgba(255, 255, 255, 0.931);
+    width: 900px;
+    height: 7300px;
+    margin: 40px auto 40px auto;
+    padding: 40px;
+}
+
+.wrap h2 {
+    font-size: 16px;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    color: rgba(86, 67, 44, 0.711);
+    border-bottom: 1px dotted rgb(189, 176, 159);
+    letter-spacing: 3px;
+    text-shadow: 14px 9px 22px #c0aa8f;
+}
+
+.wrap h2:hover {
+    color: rgb(168, 138, 138);
+    transition: all 1s;
+    letter-spacing: 5px;
+}
+
+.wrap h3 {
+    font-size: 13px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    color: rgba(86, 67, 44, 0.711);
+    letter-spacing: 3px;
+    text-shadow: 14px 9px 22px #c0aa8f;
+}
+
+
+/*基本資料*/
+
+.profile {
+    background-color: rgba(108, 96, 83, 0.405);
+    overflow: hidden;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 120px;
+    border-radius: 2%;
+}
+
+.left {
+    width: 55%;
+    float: left;
+    overflow: hidden;
+    margin-right: 0%;
+    margin-left: -20px;
+    margin-top: -50px;
+    margin-bottom: -60px;
+}
+
+.left img {
+    width: 55%;
+}
+
+.right {
+    margin-right: 5%;
+    margin-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    float: left;
+    background-color: rgba(235, 228, 221, 0.655);
+    border-radius: 10% 10% 70% 10%;
+    box-shadow: 0px 0px 50px rgba(246, 243, 240, 0.935);
+    transform: scale(1);
+    transition: all 0.8s;
+}
+
+.right:hover {
+    box-shadow: 0px 0px 50px rgba(98, 91, 86, 0.935);
+    transform: scale(1.05);
+    border-radius: 10% 10% 10% 10%;
+}
+
+.name {
+    font-size: 17px;
+    margin-bottom: 50px;
+    color: rgba(75, 67, 59, 0.828);
+    letter-spacing: 2px;
+}
+
+.info {
+    font-size: 13px;
+    line-height: 200%;
+    color: rgba(72, 60, 49, 0.746);
+    letter-spacing: 2.5px;
+    margin-bottom: 30px;
+    text-shadow: 0 0 0.2em rgba(171, 169, 167, 0.617);
+}
+
+.ig {
+    font-size: 12px;
+    letter-spacing: 2.5px;
+    overflow: left;
+    margin-left: -3px;
+}
+
+.ig a {
+    color: rgba(72, 60, 49, 0.746);
+    text-shadow: 0 0 0.2em rgba(148, 131, 111, 0.617);
+    text-decoration: none;
+}
+
+.ig a:hover {
+    text-decoration: none;
+    color: rgb(176, 150, 135);
+    font-size: 17px;
+    transition: all 0.8s;
+}
+
+.mail {
+    font-size: 12px;
+    text-shadow: 0 0 0.2em rgba(148, 131, 111, 0.617);
+    letter-spacing: 2.5px;
+}
+
+.mail::before {
+    content: "E";
+    font-weight: bold;
+    color: rgba(87, 78, 68, 0.912);
+    text-shadow: 0 0 0.2em rgba(148, 133, 111, 0.617);
+}
+
+.mail a {
+    color: rgba(84, 75, 66, 0.943);
+    text-decoration: none;
+}
+
+.mail a:hover {
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(176, 150, 135);
+    transition: all 0.8s;
+}
+
+
+/*技能*/
+
+.skill {
+    overflow: hidden;
+    margin-bottom: 180px;
+    float: left;
+    margin-right: 120px;
+}
+
+.skill h2 {}
+
+.skill ul {
+    list-style: none;
+    color: rgb(51, 88, 73);
+}
+
+.skill ul li {
+    font-size: 13px;
+    line-height: 270%;
+    letter-spacing: 2px;
+    color: rgb(143, 135, 126);
+}
+
+.skill ul li:hover {
+    letter-spacing: 3px;
+    font-size: 15px;
+    transition: all 0.8s;
+}
+
+
+/*經歷*/
+
+.experience {
+    overflow: hidden;
+    margin-bottom: 180px;
+    float: left;
+    margin-right: 40px;
+}
+
+.experience h2 {}
+
+.leftB {
+    color: rgb(126, 143, 136);
+}
+
+.experience .rightB {}
+
+.experience ul {
+    font-size: 13px;
+    color: rgb(143, 136, 126);
+    line-height: 250%;
+    letter-spacing: 2px;
+}
+
+.experience ul li {
+    font-size: 13px;
+    line-height: 250%;
+    color: rgb(143, 135, 126);
+    list-style: none;
+}
+
+.experience ul li:hover {
+    letter-spacing: 5px;
+    font-size: 15px;
+    transition: all 0.8s;
+}
+
+.experience ul li span {
+    color: rgb(143, 135, 126);
+}
+
+.experience ul:hover {
+    letter-spacing: 5px;
+    font-size: 15px;
+    transition: all 0.8s;
+}
+
+
+/*作品*/
+
+.work {
+    overflow: hidden;
+    list-style: none;
+    float: left;
+    margin-bottom: 110px;
+}
+
+.work h2 {}
+
+.work ul {}
+
+.work ul li {
+    width: 30%;
+    height: 30%;
+    float: left;
+    margin-right: 5%;
+    margin-bottom: 40px;
+    margin-top: 18px;
+    overflow: hidden;
+}
+
+.work ul li:nth-child(3n) {
+    margin-right: 0;
+}
+
+.work ul li img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transform: scale(1);
+    transition: all 0.9s;
+    border-radius: 5% 30% 5% 30%;
+    filter: blur(1.2px);
+    opacity: 0.5;
+}
+
+.work ul li:hover img {
+    transform: scale(1.2);
+    opacity: 1;
+    border-radius: 3%;
+    filter: blur(0px);
+    opacity: 1;
+}
+
+.gallery1 {
+    width: 800px;
+    height: 600px;
+    margin-top: 180px;
+    margin-bottom: 50px;
+    overflow: scroll;
+    margin-left: 50px;
+    border-radius: 4%;
+}
+
+.gallery1:hover {
+    width: 1000px;
+    transition: all 1s;
+}
+
+.gallery1 a img {
+    width: 100%;
+}
+
+.gallery2 {
+    width: 800px;
+    height: 600px;
+    margin-top: 180px;
+    margin-bottom: 50px;
+    overflow: scroll;
+    margin-left: 50px;
+    border-radius: 4%;
+}
+
+.gallery2:hover {
+    width: 1000px;
+    transition: all 1s;
+}
+
+.gallery2 a img {
+    width: 100%;
+}
+
+.gallery3 {
+    width: 800px;
+    height: 600px;
+    margin-top: 180px;
+    margin-bottom: 50px;
+    overflow: scroll;
+    margin-left: 50px;
+    border-radius: 4%;
+}
+
+.gallery3:hover {
+    width: 1000px;
+    transition: all 1s;
+}
+
+.gallery3 a img {
+    width: 100%;
+}
+
+.gallery4 {
+    width: 800px;
+    height: 600px;
+    margin-top: 180px;
+    margin-bottom: 50px;
+    overflow: scroll;
+    margin-left: 50px;
+    border-radius: 4%;
+}
+
+.gallery4:hover {
+    width: 1000px;
+    transition: all 1s;
+}
+
+.gallery4 a img {
+    width: 100%;
+}
+
+.gallery5 {
+    width: 800px;
+    height: 600px;
+    margin-top: 180px;
+    margin-bottom: 50px;
+    overflow: scroll;
+    margin-left: 50px;
+    border-radius: 4%;
+}
+
+.gallery5:hover {
+    width: 1000px;
+    transition: all 1s;
+}
+
+.gallery5 a img {
+    width: 100%;
+}
+
+.gallery6 {
+    width: 800px;
+    height: 600px;
+    margin-top: 180px;
+    margin-bottom: 50px;
+    overflow: scroll;
+    margin-left: 50px;
+    border-radius: 4%;
+}
+
+.gallery6:hover {
+    width: 1000px;
+    transition: all 1s;
+}
+
+.gallery6 a img {
+    width: 100%;
+}
